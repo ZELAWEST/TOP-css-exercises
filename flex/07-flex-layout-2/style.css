@@ -48,15 +48,18 @@ body {
   box-shadow: 2px 4px 16px rgba(0, 0, 0, .06);
   border-radius: 4px;
   width: 400px;
-font-size: x-small;
   padding: 16px;
-  margin-bottom: 22px;
+  margin: 0;
+ 
 
 }
 
 ul {
   margin: 0;
   padding: 0;
+}
+li{
+  margin-bottom: 16px;
 }
 
 .main-container {
@@ -81,8 +84,9 @@ ul {
 
 .card-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 48px;
+  gap: 32px;
+  margin:0;
 
 }
